@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/darron/sifter/commands"
 	"log"
 	"log/syslog"
 	"os"
 	"runtime"
+
+	"github.com/vauchok/sifter/commands"
 )
 
 var (

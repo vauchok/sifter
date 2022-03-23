@@ -2,8 +2,9 @@ package commands
 
 import (
 	"fmt"
-	"github.com/PagerDuty/godspeed"
 	"time"
+
+	"github.com/PagerDuty/godspeed"
 )
 
 // StatsdRunTime sends timing metrics via Dogstatsd.

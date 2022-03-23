@@ -3,11 +3,12 @@ package commands
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/pmylund/sortutil"
-	"github.com/spf13/cobra"
 	"os"
 	"strconv"
 	"time"
+
+	"github.com/pmylund/sortutil"
+	"github.com/spf13/cobra"
 )
 
 var eventCmd = &cobra.Command{

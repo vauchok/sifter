@@ -5,9 +5,10 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/spf13/cobra"
 	"os"
 	"time"
+
+	"github.com/spf13/cobra"
 )
 
 var keyCmd = &cobra.Command{
